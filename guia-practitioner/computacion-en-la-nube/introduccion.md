@@ -1,45 +1,88 @@
-# Table of contents
-1. [Introduction](#introduction)
-2. [Whats i Cloud Computing](#What-is-Cloud-Computing-?)
-3. [ A Brief History of Cloud Computing](#A-Brief-History-of-Cloud-Computing)
-4. [Advantages of cloud computing](#Advantages-of-cloud-computing)
+# Table of Contents
+1. [Introduccion](#introduccion)
+2. [Que es la ccomputacion en sa nube?](#Que-es-la-camputacion-en-la-nube)
+3. [A Brief History of Cloud Computing](#a-brief-history-of-cloud-computing)
+4. [Advantages of Cloud Computing](#advantages-of-cloud-computing)
 
-## Introduction
+## Introduccion
 
-AWS is a comprehensive platform that offers cloud computing services and infrastructure solutions for businesses and developers.
+AWS es una plataforma integral que ofrece servicios de computación en la nube y soluciones de infraestructura para empresas y desarrolladores.
 
-In 2006, Amazon web service (AWS) began offering IT infrastructure services to companies as web services, which today we know as Cloud Computing
+En 2006, Amazon Web Services (AWS) comenzó a ofrecer servicios de infraestructura de TI a las empresas como servicios web, lo que hoy conocemos como computación en la nube.
 
-## What is Cloud Computing?
+## Que es la computacion en la nube?
 
-Cloud Computing is the delivery of computing power, storage, databases, and other IT resources on demand, via the internet, through a unified platform that allows businesses and individuals to scale and manage their operations efficiently.
+La computación en la nube es la entrega de poder de cómputo, almacenamiento, bases de datos y otros recursos de TI bajo demanda, a través de internet, mediante una plataforma unificada que permite a las empresas e individuos escalar y gestionar sus operaciones de manera eficiente.
 
-## A Brief History of Cloud Computing
+## Historia de la computacion en lo nube
 
-- **1950s**: Mainframe computers introduced, laying the groundwork for cloud computing.
-- **1960s**: The concept of "time-sharing" emerges, allowing multiple users to access computing resources on a single machine.
-- **1990s**: The rise of the internet paves the way for distributed computing and the development of the first cloud-like services.
-- **1999**: Salesforce launches its cloud-based CRM software, marking one of the first successful cloud applications.
-- **2002**: Amazon Web Services (AWS) is launched, offering cloud infrastructure services to businesses.
-- **2006**: AWS introduces Elastic Compute Cloud (EC2), allowing on-demand computing power and storage.
-- **2008**: Google launches Google App Engine, expanding cloud offerings beyond infrastructure to platforms and software.
-- **2010**: Microsoft launches Windows Azure (now Microsoft Azure), establishing itself as a major player in the cloud market.
-- **2014**: The adoption of cloud computing accelerates, with a significant shift from on-premises to cloud-based IT infrastructure.
-- **2020s**: Cloud computing continues to grow with advancements in artificial intelligence, machine learning, and hybrid cloud solutions.
+- **1950s**: Se introdujeron las computadoras mainframe, sentando las bases para la computación en la nube.
+- **1960s**: Surge el concepto de "time-sharing", que permite a varios usuarios acceder a recursos de cómputo en una sola máquina.
+- **1990s**: El auge de internet pavimenta el camino para la computación distribuida y el desarrollo de los primeros servicios similares a la nube.
+- **1999**: Salesforce lanza su software CRM basado en la nube, marcando una de las primeras aplicaciones exitosas en la nube.
+- **2002**: Se lanza Amazon Web Services (AWS), ofreciendo servicios de infraestructura en la nube a las empresas.
+- **2006**: AWS introduce Elastic Compute Cloud (EC2), permitiendo poder de cómputo y almacenamiento bajo demanda.
+- **2008**: Google lanza Google App Engine, ampliando las ofertas de la nube más allá de infraestructura, hacia plataformas y software.
+- **2010**: Microsoft lanza Windows Azure (ahora Microsoft Azure), consolidándose como un actor importante en el mercado de la nube.
+- **2014**: La adopción de la computación en la nube se acelera, con un cambio significativo de la infraestructura de TI local a la nube.
+- **2020s**: La computación en la nube sigue creciendo con avances en inteligencia artificial, aprendizaje automático y soluciones de nube híbrida.
 
-## Advantages of cloud computing
+## Beneficios de la computacion en la nube
 
-1. Scalability: Cloud computing allows businesses to easily scale their IT resources up or down based on demand, ensuring flexibility and cost-efficiency.
+## Seguridad
+AWS proporciona una infraestructura segura diseñada específicamente para la nube. 
 
-2. Cost-Effectiveness: By using cloud services, companies can avoid the upfront costs of buying and maintaining physical hardware, paying only for the resources they use.
+Los datos se cifran automáticamente en la capa física antes de salir de las instalaciones protegidas, lo que garantiza la confidencialidad, integridad y disponibilidad. 
 
-3. Accessibility: Cloud services can be accessed from anywhere with an internet connection, enabling remote work and global collaboration.
+Los clientes mantienen la propiedad de sus datos, incluyendo su capacidad para cifrarlos, transferirlos y gestionar su retención.
 
-4. Reliability: Major cloud providers offer robust systems with high uptime and automatic backups, reducing the risk of data loss and ensuring service continuity.
+## Disponibilidad 
+AWS ofrece una alta disponibilidad de red. Cada región está completamente aislada y compuesta por varias **Zonas de Disponibilidad (AZ)**, que son centros de datos independientes. 
 
-5. Security: Leading cloud platforms provide advanced security features, including encryption, multi-factor authentication, and regular security updates to protect sensitive data.
+Esto permite distribuir las aplicaciones a través de múltiples AZ para mejorar la resiliencia. Los planos de control de AWS y la consola de administración están diseñados para funcionar de manera segura incluso en aislamiento, garantizando un funcionamiento seguro durante al menos 24 horas sin intervención externa.
 
-6. Automatic Updates: Cloud services are automatically updated with the latest features and security patches, ensuring businesses always have access to the most current technology without manual intervention.
+## Rendimiento
+La infraestructura global de AWS está optimizada para el rendimiento. 
+
+Ofrece baja latencia, mínima pérdida de paquetes y alta calidad de red, gracias a una red troncal de 400 GbE. **AWS Local Zones** y **AWS Wavelength** proporcionan infraestructura cerca de los usuarios finales y dispositivos conectados 5G, garantizando latencias muy bajas. 
+
+Además, permite iniciar recursos rápidamente, implementando miles de servidores en minutos.
+
+## Escalabilidad
+AWS permite una escalabilidad prácticamente infinita, lo que permite a las empresas ajustar los recursos según sus necesidades. 
+
+Ya no es necesario sobreaprovisionar infraestructura, ya que se pueden aumentar o disminuir los recursos instantáneamente. Esto reduce costos y mejora la capacidad de respuesta a las demandas del negocio.
+
+## Flexibilidad
+La infraestructura de AWS ofrece flexibilidad total para ejecutar cargas de trabajo donde se necesiten. Se puede elegir entre **Regiones** y **Zonas de Disponibilidad (AZ)** globalmente, o utilizar opciones como **AWS Outposts** para ejecutar aplicaciones localmente. 
+
+## Presencia Global
+AWS tiene la mayor presencia global de infraestructura en la nube. Esto permite ejecutar aplicaciones cerca de los usuarios finales para asegurar el mejor rendimiento y baja latencia. 
+
+Además, **AWS Ground Station** proporciona antenas satelitales cercanas a las regiones de infraestructura de AWS, ofreciendo soluciones de comunicación satelital.
 
 
 
+## Componentes Principales de la Infraestructura de AWS
+
+### 1. **Regiones y Zonas de Disponibilidad**
+   AWS opera en múltiples **regiones** alrededor del mundo, cada una de ellas compuesta por varias **zonas de disponibilidad (AZ)**. 
+   
+   Cada región es una ubicación geográfica independiente, y las zonas de disponibilidad son centros de datos físicos que proporcionan redundancia y resiliencia.
+
+   - **Región**: Es una área geográfica que contiene varias zonas de disponibilidad, a diciembre 2024 hay **34 regiones** lanzadas .
+
+   - **Zona de Disponibilidad (AZ)**: Es un centro de datos aislado separado por 100km en promedio entre cada uno,  dentro de una región que está conectado a otras zonas mediante redes de baja latencia. a Diciembre 2024 hay **108 zonas** .
+
+   > AWS recomienda replicar los datos y recursos entre las zonas de disponibilidad para obtener mayor resiliencia.
+
+### ¿Cómo elegir una región de AWS? 
+
+- Cumplimiento de los requisitos legales y de gobernanza de datos: los datos nunca salen de una región sin un permiso explícito.
+- Proximidad a los clientes: latencia reducida.
+- Servicios disponibles en una región: los nuevos servicios y las nuevas funciones no están disponibles en todas las regiones.
+- Precios: los precios varían de una región a otra y son transparentes en la página de precios del servicio.
+
+### 2. Zonas Locales
+
+Las zonas locales están disponibles en 34 áreas metropolitanas de todo el mundo: 17 fuera de los Estados Unidos (Auckland, Bangkok, Buenos Aires, Copenhague, Delhi, Hamburgo, Helsinki, Calcuta, Lagos, Lima, Manila, Mascate, Perth, Querétaro, Santiago, Taipéi y Varsovia) y 17 en los Estados Unidos.
